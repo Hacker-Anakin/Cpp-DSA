@@ -1,0 +1,2 @@
+Hello, this is a test file.
+File handling in C++ is easy!
