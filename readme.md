@@ -56,13 +56,19 @@ Topics: Functions, Recursion fundamentals
 ### **Module 3 (File Handling)**
 Topics: File streams, I/O in files
 
-<!-- ### **Module 3 (Arrays and Strings)**
-Topics: Array operations, String manipulation, Two-pointer technique  
 
-### **Module 4 (Pointers and Objects)**
-Topics: Pointers, Dynamic memory, Object-oriented programming basics  
+### **Module 4 (Arrrays, Strings and Pointers)**
+Topics: Arrays, Array Operations, Strings, String Functions, Pointers, Dynamic memory, 
 
-### **Module 5 (Searching and Sorting Algorithms)**
+<!--
+ 
+Structures and Enumerations
+Object-oriented programming basics 
+Searching and Sorting Algorithms
+STL
+STL
+STL
+### **Module 5 ()**
 Topics: Linear & Binary Search, Quick Sort, Merge Sort, Bubble Sort  
 
 ### **Module 6 (Vector and Pair)**  

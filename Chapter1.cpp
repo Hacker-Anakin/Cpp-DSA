@@ -204,6 +204,12 @@ int main()
         cout<<arr[i];
     }
 
+    // for loops in iterations
+    string fullName = "Anmol";
+    for (char c : str) {
+        cout<<c;
+    }
+
     // infinite loop: ⚠ Waring may lag your pc as C++ directly works with memory
     // for ( ; ; )
     // {

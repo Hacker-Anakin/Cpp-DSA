@@ -39,5 +39,21 @@ int main(){
 
     inFile.close();  // Close the file
 
+    // 👉 Appending to a File
+    cout<<"Appending data to a file."<<endl;
+
+    ofstream outFile("example.txt", ios::app); // Open-file-stream to write in a file in append mode
+
+    if (!outFile) {
+        cerr << "Error opening file!" << endl;
+        return 1;
+    }
+
+    outFile << "Appending new data to the file.\n";  
+    outFile.close();
+
+    cout << "Data appended successfully!" << endl;
+
+
     return 0;
 }

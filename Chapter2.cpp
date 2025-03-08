@@ -20,6 +20,16 @@ int add(int x, int y) { // function definition with parameters and it returns an
     return x + y;
 }
 
+// declare a function as constexpr
+constexpr int add_numbers(int a, int b) { // a constant function definition with parameters and it returns an integer
+    return a + b;
+}
+
+// declare a function as inline // faster than normal function and used for small functions only
+inline int add_numbers_inline(int a, int b) { // an inline function definition with parameters and it returns an integer
+    return a + b;
+}
+
 // Fibonacci series using recursion function
 int fib(int n)
 {
