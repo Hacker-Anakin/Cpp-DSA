@@ -20,6 +20,12 @@ int add(int x, int y) { // function definition with parameters and it returns an
     return x + y;
 }
 
+int product(int x, int y){
+    static int z = 1; // static variable save the data in cache and don't change
+    z = z + x * y;
+    return z;
+}
+
 // declare a function as constexpr
 constexpr int add_numbers(int a, int b) { // a constant function definition with parameters and it returns an integer
     return a + b;

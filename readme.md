@@ -58,16 +58,20 @@ Topics: File streams, I/O in files
 
 
 ### **Module 4 (Arrrays, Strings and Pointers)**
-Topics: Arrays, Array Operations, Strings, String Functions, Pointers, Dynamic memory, 
+Topics: Arrays, Array Operations, Strings, String Functions, Pointers, Dynamic memory
+
+### **Module 5 (Structures, Enumerations and Unions)**
+Topics: Structures, Enumerations and Unions declaration and memory allocation
+
+### **Module 6 (Object-oriented programming)**
+Topics: Class & Object, Access Specifier, Encapsulation, Constructor, this Pointer, Destructor, Inheritance, Polymorphism, Abstraction
 
 <!--
  
-Structures and Enumerations
-Object-oriented programming basics 
 Searching and Sorting Algorithms
-STL
-STL
-STL
+STL - Vector, Queue & Stack
+STL - Map & Set
+STL - Iterators & Algorithms
 ### **Module 5 ()**
 Topics: Linear & Binary Search, Quick Sort, Merge Sort, Bubble Sort  
 

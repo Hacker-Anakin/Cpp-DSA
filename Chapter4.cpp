@@ -66,6 +66,9 @@ int main(){
     str.push_back('!'); // Hello Cats!
     str.pop_back(); // Hello Cats! -> removes last character i.e. '!'
     str.resize(3); // Hello Cats! -> Hel // only 3 characters
+    str.append("looo"); // Hello Cats! -> Hellooo // append "looo" to the end
+
+    cout<<"string after all operations: "<<str<<endl;
 
     // Changing Case
     for (char &c : str) { // Use reference to modify the original string
@@ -84,6 +87,17 @@ int main(){
     for (auto it1 = str.rbegin(); it1 != str.rend(); it1++)
         cout << *it1;
     cout << endl;
+
+    // Comparing
+    string str1 = "Hello world";
+    string str2 = "Hello world";
+    string str3 = "Hello";
+    string str4 = "Hello world, What's Up?";
+
+    // compare the strings
+    cout <<"Comparing String 1 and String 2: "  << str1.compare(str2) << " (Equal)" <<endl;
+    cout <<"Comparing String 1 and String 3: " << str1.compare(str3) << " (String 1 is Longer)" << endl;
+    cout <<"Comparing String 1 and String 4: " << str1.compare(str4) <<" (String 1 is Smaller)" << endl;
 
     // Formatting
     cout << setw(8) << "Number 1: " << setw(10) << 100 << endl;
@@ -105,6 +119,38 @@ int main(){
     cout << "Value of b - stored in c: " << **c << endl;
     cout << "Address of b: " << &b << " = ";
     cout << "Address of b - stored in c: " << (void*)c << endl;
+
+    int var = 5;
+    int *point_var = &var;
+    
+    *point_var = 1; // change value at address point_var
+
+    cout << var << endl; // Output: 1
+    cout << point_var << endl; // Output: 1
+
+    int* point_var2 = NULL; // declare a pointer and initialize it with NULL
+    point_var2 = new int; // dynamically allocate memory using the new keyword 
+    *point_var2 = 45; // assign value to allocated memory
+    delete point_var2; // free the allocated memory, point_var2 is now a dangling pointer, this is a memory leak and is dnagerous
+    point_var2 = nullptr; // set the pointer to nullptr to avoid dangling pointer
+
+    // 👉 Pointers and Arrays
+    // Declare an array
+    int v[3] = { 10, 100, 200 };
+  
+    // declare pointer variable
+    int* ptr;
+  
+    // Assign the address of v[0] to ptr
+    ptr = v;
+  
+    for (int i = 0; i < 3; i++) {
+        cout << "Value at ptr = " << ptr << "\n";
+        cout << "Value at *ptr = " << *ptr << "\n";
+  
+        // Increment pointer ptr by 1
+        ptr++;
+    }
 
     return 0;
 }
