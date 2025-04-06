@@ -66,29 +66,21 @@ Topics: Structures, Enumerations and Unions declaration and memory allocation
 ### **Module 6 (Object-oriented programming)**
 Topics: Class & Object, Access Specifier, Encapsulation, Constructor, this Pointer, Destructor, Inheritance, Polymorphism, Abstraction
 
+### **Module 7 (STL - Vector, Queue & Stack)**
+Topics: STL, Iterators, Vector, Queue, Deque, Stack, Lists and Pairs.
+
+### **Module 8 (STL - Map & Set)**
+Topics: Map, Unordered Map, Multimap, Unordered Multimap, Set, Unordered Set, Multiset, Unordered Multiset
+
+### **Module 9 (STL - Searching and Sorting Algorithms)**
+Topics: Linear Search, Binary Search, 
+
 <!--
  
-Searching and Sorting Algorithms
-STL - Vector, Queue & Stack
 STL - Map & Set
-STL - Iterators & Algorithms
-### **Module 5 ()**
-Topics: Linear & Binary Search, Quick Sort, Merge Sort, Bubble Sort  
-
-### **Module 6 (Vector and Pair)**  
-Topics: STL vectors, Pairs, Iterators  
-
-### **Module 7 (Linked List)**
-Topics: Singly and Doubly Linked Lists, Circular Linked List  
-
-### **Module 8 (Stacks and Queues)**
-Topics: Stack implementation, Queue operations, Priority queue  
-
-### **Module 9 (Sets and Maps)**
-Topics: STL sets and maps, Hashing  
-
-### **Module 10 (Trees and Graph Data Structures)**
-Topics: Binary Trees, Binary Search Trees, Graph Traversal (DFS, BFS)   -->
+STL - Searching and Sorting Algorithms
+Advance Topics - Priority Queue,  Trees and Graph Data Structures
+-->
 
 ---
 
